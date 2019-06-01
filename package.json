@@ -12,7 +12,7 @@
   "main": "index.js",
   "private": true,
   "bin": {
-    "canirly": "./index.js"
+    "canirly": "./cli/index.js"
   },
   "scripts": {
     "upgrade-db": "npm update --save caniuse-db && git add package.json && git commit -m \"upgrade db\" && git push origin master",

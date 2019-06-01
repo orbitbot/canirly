@@ -1,8 +1,6 @@
-# caniuse-cli
+# canirly
 
 Command line tool for caniuse database.
-
-![caniuse-cli screenshot](https://github.com/dsenkus/caniuse-cli/raw/master/screenshot.png?raw=true)
 
 ## Features
 
@@ -12,37 +10,16 @@ Command line tool for caniuse database.
 ## Installation
 
 ```
-# npm install -g caniuse-cli
+# ...
 ```
 
 ## Usage
 
 ```bash
-$ caniuse webrtc
-```
-## Enable Tab Autocompletion
-In **zsh**:
-
-```bash
-echo '. <(./caniuse --completion)' >> ~/.zshrc
+$ canirly webrtc
 ```
 
-In **bash**:
-
-```bash
-./caniuse --completion >> ~/.caniuse.completion.sh
-echo 'source ~/.caniuse.completion.sh' >> ~/.bashrc
-```
-
-In **fish**:
-
-```bash
-echo 'caniuse --completion-fish | source' >> ~/.config/fish/config.fish
-```
-
-That's all!
-
-Now you have an autocompletion system. 
+Now you have an autocompletion system.
 
 ## Possible issues
 
